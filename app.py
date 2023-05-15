@@ -43,7 +43,7 @@ def signup():
         return '¡Registro exitoso!'
 
     # Si la solicitud es GET, mostrar el formulario
-    return render_template('formulario.html')
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run()
